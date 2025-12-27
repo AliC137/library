@@ -62,6 +62,13 @@
 			<version>2.6.0</version>
 		</dependency>
 
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+
+
 		<!-- Tests -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
