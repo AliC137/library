@@ -1,10 +1,10 @@
 Library Management System – Backend API
-    Project Description
+Project Description
 
 The Library Management System is a backend REST API built using Spring Boot that manages books, users, loans, reservations, and fines.
 It demonstrates a complete object-oriented software solution with clean architecture, proper layering, and real-world deployment.
 
-     The system supports:
+The system supports:
 
 Managing books and book copies
 Borrowing and returning books
@@ -13,7 +13,7 @@ Automatically calculating fines for overdue loans
 Secure, structured REST APIs
 Deployment with PostgreSQL on Render
 
-     Main Features
+Main Features
 
 CRUD operations for books and users
 Loan management with due dates
@@ -89,7 +89,7 @@ src/main/java/com/example/library
      """The UML diagram is in docs folder in project root"""
 
 
-     Technologies Used
+Technologies Used
 
 Java 17
 Spring Boot 3
@@ -102,7 +102,7 @@ Swagger / OpenAPI
 Docker
 Render Cloud
 
-    How to Run Locally
+How to Run Locally
 Prerequisites
 
 Java 17+
@@ -118,7 +118,7 @@ API: http://localhost:8080
 Swagger UI: http://localhost:8080/swagger-ui.html
 H2 Console: http://localhost:8080/h2
 
-     Deployment
+Deployment
 
 The backend is deployed on Render using PostgreSQL.
 
@@ -128,7 +128,7 @@ https://library-backend-bjx6.onrender.com
 Swagger UI
 https://library-backend-bjx6.onrender.com/swagger-ui.html
 
-     Notes
+Notes
 
 H2 is used for local testing (data resets on restart)
 
